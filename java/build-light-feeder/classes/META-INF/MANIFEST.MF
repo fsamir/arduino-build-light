@@ -1,0 +1,5 @@
+Implementation-Title: Java COMM test
+Implementation-Version: 1.0.0 (2007-01-01)
+Implementation-Vendor: akini
+Implementation-URL: http://koti.mbnet.fi/akini
+Main-Class: serialtalk.SerialTest
