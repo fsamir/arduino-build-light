@@ -6,3 +6,6 @@ Build light for continuous integration servers, such as Hudson/Jenkins.
 100% open source both hardware and software.
 
 Proudly supported by www.elevenFolders.com
+
+References:
+librxtxSerial.jnilib for Snow Leopard: http://tech.element77.com/2009/06/arduino-problems-with.html

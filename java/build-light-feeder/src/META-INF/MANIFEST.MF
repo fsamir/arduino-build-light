@@ -1,5 +1,5 @@
-Implementation-Title: Java COMM test
+Implementation-Title: Arduino Build Light
 Implementation-Version: 1.0.0 (2007-01-01)
-Implementation-Vendor: akini
-Implementation-URL: http://koti.mbnet.fi/akini
-Main-Class: serialtalk.SerialTest
+Implementation-Vendor: elevenfolders.com
+Implementation-URL: http://www.elevenfolders.com
+Main-Class: com.elevenfolders.arduino.buildlight.SerialFeeder

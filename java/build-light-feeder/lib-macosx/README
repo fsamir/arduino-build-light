@@ -1,0 +1,9 @@
+RXTX is usually very annoying to configure in in different Operation Systems.
+
+If you see the error below, try replacing the librxtxSerial.<jnilib|dll> by one in lib-other-os
+"java.lang.UnsatisfiedLinkError: /Users/kylesm/Downloads/arduino-0012/Arduino 12.app/Contents/Resources/Java/librxtxSerial.jnilib:  thrown while loading gnu.io.RXTXCommDriver"
+
+If the problem persists, have a look in these two links:
+
+http://blog.iharder.net/2009/08/18/rxtx-java-6-and-librxtxserial-jnilib-on-intel-mac-os-x/
+http://blog.infinitechaos.com/2009/01/29/getting-arduino-running-on-mac-os-x-with-64-bit-java/

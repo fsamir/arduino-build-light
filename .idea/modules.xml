@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/arduino-build-light.iml" filepath="$PROJECT_DIR$/arduino-build-light.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/build-light-feeder/build-light-feeder.iml" filepath="$PROJECT_DIR$/java/build-light-feeder/build-light-feeder.iml" />
     </modules>
   </component>
 </project>

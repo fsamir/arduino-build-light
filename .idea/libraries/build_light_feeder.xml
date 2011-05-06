@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="build-light-feeder">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/java/build-light-feeder/lib/RXTXcomm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/build-light-feeder/lib/core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/build-light-feeder/lib/gson-1.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
