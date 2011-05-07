@@ -4,6 +4,7 @@
       <root url="jar://$PROJECT_DIR$/java/build-light-feeder/lib/RXTXcomm.jar!/" />
       <root url="jar://$PROJECT_DIR$/java/build-light-feeder/lib/core.jar!/" />
       <root url="jar://$PROJECT_DIR$/java/build-light-feeder/lib/gson-1.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/build-light-feeder/lib/httpclient-4.0.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

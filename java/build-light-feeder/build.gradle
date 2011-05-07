@@ -8,6 +8,7 @@ repositories {
 }
 
 dependencies {
+    compile group:  "org.apache.httpcomponents",   name:"httpclient", version:"4.0.3"
     compile group:  "com.google.code.gson",   name:"gson", version:"1.4"
 //    groovy group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
     compile group: 'org.codehaus.groovy', name: 'groovy', version: '1.7.10'

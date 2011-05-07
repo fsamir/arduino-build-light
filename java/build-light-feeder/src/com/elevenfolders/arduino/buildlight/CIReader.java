@@ -1,5 +1,7 @@
 package com.elevenfolders.arduino.buildlight;
 
-public interface Server {
+public interface CIReader {
     Status getStatus();
+
+    void updateFromServer();
 }

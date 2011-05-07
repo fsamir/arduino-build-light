@@ -15,6 +15,28 @@ public class Job {
     public void setColor(String color) {
         this.color = color;
     }
+    public void setColor(Status status) {
+        switch (status) {
+            case FAILED:
+                setColor("yellow");
+                break;
+            case SUCCESS:
+                setColor("blue");
+                break;
+            case BUILDING:
+                setColor("blue_anime");
+                break;
+            case BUILDING_FROM_FAILURE:
+                setColor("orange_anime");
+                break;
+            case BUILDING_FROM_SUCCESS:
+                setColor("blue_anime");
+                break;
+            default:
+                setColor("blue");
+                break;
+        }
+    }
 
     public URL getUrl() {
         return url;

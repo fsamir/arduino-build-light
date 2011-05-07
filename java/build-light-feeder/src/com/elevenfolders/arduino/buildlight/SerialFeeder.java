@@ -35,7 +35,18 @@ public class SerialFeeder implements SerialPortEventListener {
     private static final int DATA_RATE = 9600;
     Random random = new Random();
     private Status currentStatus;
-    private Server server = new HudsonReader();
+    private CIReader reader;
+
+    public SerialFeeder() {
+
+        //TODO: load this from properties file
+//        String url = "http://deadlock.netbeans.org/hudson/job/analytics-server";//DISABLED
+//        String url = "http://deadlock.netbeans.org/hudson/job/apitest/";//BLUE
+//        String url = "http://deadlock.netbeans.org/hudson/job/prototypes-matisse/";//RED
+        String url = "http://deadlock.netbeans.org/hudson/job/NB-Core-Build/";//blue_anime
+
+        reader = new HudsonReader(url);
+    }
 
     public void initialize() throws NoSuchPortException {
         CommPortIdentifier portId = null;
@@ -76,14 +87,15 @@ public class SerialFeeder implements SerialPortEventListener {
             serialPort.notifyOnDataAvailable(true);
 
             while (true) {
-                Status newStatus = server.getStatus();
-                System.out.println("Status: "+newStatus);
-                if(newStatus != currentStatus) {
+                reader.updateFromServer();
+                    Status newStatus = reader.getStatus();
+                System.out.println("Status: " + newStatus);
+                if (newStatus != currentStatus) {
                     output.write(newStatus.getCode());
                     currentStatus = newStatus;
                 }
 
-                Thread.sleep(1000 * 3);
+                Thread.sleep(1000 * 6);  //TODO: customize
             }
         } catch (Exception e) {
             System.err.println(e.toString());

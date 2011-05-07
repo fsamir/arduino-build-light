@@ -2,11 +2,12 @@ package com.elevenfolders.arduino.buildlight;
 
 
 public enum Status {
-    BUILDING(0),
-    FAILED(-1),
     SUCCESS(1),
-    BUILDING_FROM_SUCCESS(2),
-    BUILDING_FROM_FAILURE(-2);
+    FAILED(2),
+    BUILDING(3),
+    BUILDING_FROM_SUCCESS(4),
+    BUILDING_FROM_FAILURE(5),
+    DISABLED(6);
 
     private int status;
 
@@ -19,5 +20,8 @@ public enum Status {
 
     public int getCode() {
         return status;
+    }
+
+    public class DISABLED {
     }
 }

@@ -46,15 +46,32 @@ void loop()
   if (Serial.available() > 0) {
     // get incoming byte:
     inByte = Serial.read();
-
-    if(inByte == 0) {
-      set_all(36,25,255);
-    }else {
-      set_all(255,0,0);
+    
+    /*
+    SUCCESS(1),
+    FAILED(2),
+    BUILDING(3),
+    BUILDING_FROM_SUCCESS(4),
+    BUILDING_FROM_FAILURE(5),
+    DISABLED(6);
+    */
+    if(inByte == 1) { 
+      set_all_green();
+    } else if(inByte == 2) { 
+      set_all_red();
+    } else if(inByte == 6) { 
+      set_all_red();
     }
+    
     delay(1000);     
     Serial.print(inByte, BYTE);   // send back the value received.
   }   
+}
+void set_all_green(){
+  set_all(36,25,255);
+}
+void set_all_red(){
+  set_all(255,0,0);
 }
 
 void set_all(int r, int g, int b)
