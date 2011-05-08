@@ -40,10 +40,7 @@ public class SerialFeeder implements SerialPortEventListener {
     public SerialFeeder() {
 
         //TODO: load this from properties file
-//        String url = "http://deadlock.netbeans.org/hudson/job/analytics-server";//DISABLED
-//        String url = "http://deadlock.netbeans.org/hudson/job/apitest/";//BLUE
-//        String url = "http://deadlock.netbeans.org/hudson/job/prototypes-matisse/";//RED
-        String url = "http://deadlock.netbeans.org/hudson/job/NB-Core-Build/";//blue_anime
+        String url = "http://localhost:9090/jenkins/job/torpedeiro-unit/";
 
         reader = new HudsonReader(url);
     }
@@ -91,11 +88,11 @@ public class SerialFeeder implements SerialPortEventListener {
                     Status newStatus = reader.getStatus();
                 System.out.println("Status: " + newStatus);
                 if (newStatus != currentStatus) {
-                    output.write(newStatus.getCode());
                     currentStatus = newStatus;
                 }
+                output.write(newStatus.getCode());
 
-                Thread.sleep(1000 * 6);  //TODO: customize
+                Thread.sleep(1000 * 6)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;  //TODO: customize
             }
         } catch (Exception e) {
             System.err.println(e.toString());
@@ -125,6 +122,7 @@ public class SerialFeeder implements SerialPortEventListener {
 
                 // Displayed results are codepage dependent
                 System.out.print(new String(chunk));
+//                System.out.println("received from arduino: "+ new String(chunk));
             } catch (Exception e) {
                 System.err.println(e.toString());
             }

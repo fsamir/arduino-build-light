@@ -82,18 +82,8 @@ public class HudsonReader implements CIReader {
         if (this.xml == null) {
             throw new NullPointerException("Xml needs to be initialized. Call updateFromServer first");
         }
-//        List<Job> jobs = fromJsonToJobs();
-
         String color = fromXmlToColor();
-
         return fromColorToStatus(color);
-//        if (containsFailed(jobs)) {
-//            return Status.FAILED;
-//        } else if (containsBuilding(jobs)) {
-//            return Status.BUILDING;
-//        } else {
-//            return Status.SUCCESS;
-//        }
     }
 
     private Status fromColorToStatus(String color) {
@@ -103,7 +93,6 @@ public class HudsonReader implements CIReader {
     }
 
     private String fromXmlToColor() {
-//        List<Job> jobs = new ArrayList<Job>();
         String result = "blue";
         DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
         domFactory.setNamespaceAware(true); // never forget this!
