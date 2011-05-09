@@ -8,10 +8,103 @@ int inByte = 0;         // incoming serial byte
 void setup()
 {
   Serial.begin(9600);
-  //  pinMode(2, INPUT);   // digital sensor is on digital pin 2
-  establishContact();  // send a byte to establish contact until receiver responds 
+  initializeColorduino();
+  establishContact();  // send a byte to establish contact until receiver responds   
+}
+void loop(){
+  // if we get a valid byte, read analog ins:
+  if (Serial.available() > 0) {
+    // get incoming byte:
+    inByte = Serial.read();
+    /*
+    LEgend:
+     SUCCESS(1),
+     FAILED(2),
+     BUILDING(3),
+     BUILDING_FROM_SUCCESS(4),
+     BUILDING_FROM_FAILURE(5),
+     DISABLED(6);
+     */
+    switch(inByte) {
+    case 1:
+      set_all_green();
+      break;
+    case 2:
+      set_all_red();
+      break;
+    case 4:
+      set_all_blue();
+      break;
+    case 5:
+//      blinkOrange();
+      setAllOrange();
+      break;
+    case 6:
+      set_all_red();
+      break;
+    default:
+      set_all_grey();
+      Serial.println("I do not speak your language!");   // send back the value received.
+      break;
+    } 
+    
+    delay(1000);     
+    Serial.print(inByte);   // send back the value received.
+  } 
+}
 
-  Colorduino.Init(); // initialize the board
+void waitingForCommunicationLight() {
+  Colorduino.SetPixel(0, 0, 36,25,255);
+  Colorduino.FlipPage(); 
+  delay(1000);
+  Colorduino.SetPixel(0, 0, 255,0,0);
+  Colorduino.FlipPage(); 
+}
+//RGB samples: http://www.tayloredmktg.com/rgb/
+void blinkOrange(){
+   set_all(0,0,0);//black
+   delay(500);   
+   set_all(255,165,0);//orange
+}
+void setAllOrange(){   
+   set_all(255,165,0);//orange
+}
+void set_all_grey(){
+    set_all(30,30,30);
+}
+void set_all_blue(){
+  set_all(0,0,255);
+}
+
+void set_all_green(){
+  set_all(36,25,255);
+}
+void set_all_red(){
+  set_all(255,0,0);
+}
+
+void set_all(int r, int g, int b) {
+  unsigned char x,y;
+  float value;
+
+  for(y = 0; y < ColorduinoScreenHeight; y++) {
+    for(x = 0; x < ColorduinoScreenWidth; x++) {	
+      Colorduino.SetPixel(x, y, r, g, b);
+    }
+  }
+  paletteShift++;
+  Colorduino.FlipPage(); // swap screen buffers to show it
+}
+
+void establishContact() {
+  while (Serial.available() <= 0) {
+    Serial.print('A', BYTE);   // send a capital A
+    delay(300);
+  }
+}
+
+void initializeColorduino() {
+    Colorduino.Init(); // initialize the board
 
   // compensate for relative intensity differences in R/G/B brightness
   // array of 6-bit base values for RGB (0~63)
@@ -40,84 +133,7 @@ void setup()
       plasma[x][y] = bcolor;
     }  
 
- set_all_green();    
-}
-void loop()
-{
- 
-  
-  // if we get a valid byte, read analog ins:
-  if (Serial.available() > 0) {
-    // get incoming byte:
-    inByte = Serial.read();
-
-    /*
-    LEgend:
-     SUCCESS(1),
-     FAILED(2),
-     BUILDING(3),
-     BUILDING_FROM_SUCCESS(4),
-     BUILDING_FROM_FAILURE(5),
-     DISABLED(6);
-     */
-    switch(inByte) {
-    case 1:
-      set_all_green();
-      break;
-    case 2:
-      set_all_red();
-      break;
-    case 4:
-      set_all_blue();
-      break;
-    case 6:
-      set_all_red();
-      break;
-    default:
-      set_all_grey();
-      Serial.println('I do not speak your language!');   // send back the value received.
-      break;
-    }   
-
-    delay(1000);     
-    Serial.print(inByte, BYTE);   // send back the value received.
-  }   
-}
-
-void set_all_grey(){
-    set_all(30,30,30);
-}
-void set_all_blue(){
-  set_all(0,0,255);
-}
-
-void set_all_green(){
-  set_all(36,25,255);
-}
-void set_all_red(){
-  set_all(255,0,0);
-   // set_all(255,255,255);
-}
-
-void set_all(int r, int g, int b)
-{
-  unsigned char x,y;
-  float value;
-
-  for(y = 0; y < ColorduinoScreenHeight; y++) {
-    for(x = 0; x < ColorduinoScreenWidth; x++) {	
-      Colorduino.SetPixel(x, y, r, g, b);
-    }
-  }
-  paletteShift++;
-  Colorduino.FlipPage(); // swap screen buffers to show it
-}
-
-void establishContact() {
-  while (Serial.available() <= 0) {
-    Serial.print('.', BYTE);   // send a period
-    delay(300);
-  }
+  waitingForCommunicationLight();
 }
 
 

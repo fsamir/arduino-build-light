@@ -15,8 +15,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="839a3734-9540-4389-b545-cfd17afa1392" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Jobs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/JobsTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/lib/rxtxParallel.dll" afterPath="$PROJECT_DIR$/java/build-light-feeder/lib/rxtxParallel.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/lib/rxtxSerial.dll" afterPath="$PROJECT_DIR$/java/build-light-feeder/lib/rxtxSerial.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arduino/ArduinoSerialListener/ArduinoSerialListener.pde" afterPath="$PROJECT_DIR$/arduino/ArduinoSerialListener/ArduinoSerialListener.pde" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/build-light-feeder.iml" afterPath="$PROJECT_DIR$/java/build-light-feeder/build-light-feeder.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/build.gradle" afterPath="$PROJECT_DIR$/java/build-light-feeder/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/lib/javax.comm.properties" afterPath="$PROJECT_DIR$/java/build-light-feeder/lib/javax.comm.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/HudsonReader.java" afterPath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/HudsonReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Job.java" afterPath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Job.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/SerialFeeder.java" afterPath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/SerialFeeder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Status.java" afterPath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Status.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/HudsonReaderTests.java" afterPath="$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/HudsonReaderTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/JobsBuilder.java" afterPath="$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/JobsBuilder.java" />
+      <change type="MOVED" beforePath="D:\franklin\arduino-build-light\java\build-light-feeder\compile.bat" afterPath="$PROJECT_DIR$/java/build-light-feeder/bin/compile.bat" />
+      <change type="MOVED" beforePath="D:\franklin\arduino-build-light\java\build-light-feeder\compile.sh" afterPath="$PROJECT_DIR$/java/build-light-feeder/bin/compile.sh" />
+      <change type="MOVED" beforePath="D:\franklin\arduino-build-light\java\build-light-feeder\go.bat" afterPath="$PROJECT_DIR$/java/build-light-feeder/bin/go.bat" />
+      <change type="MOVED" beforePath="D:\franklin\arduino-build-light\java\build-light-feeder\go.sh" afterPath="$PROJECT_DIR$/java/build-light-feeder/bin/go.sh" />
+      <change type="MOVED" beforePath="D:\franklin\arduino-build-light\java\build-light-feeder\jar.bat" afterPath="$PROJECT_DIR$/java/build-light-feeder/bin/jar.bat" />
+      <change type="MOVED" beforePath="D:\franklin\arduino-build-light\java\build-light-feeder\jar.sh" afterPath="$PROJECT_DIR$/java/build-light-feeder/bin/jar.sh" />
+      <change type="MOVED" beforePath="D:\franklin\arduino-build-light\java\build-light-feeder\readme.txt" afterPath="$PROJECT_DIR$/java/build-light-feeder/bin/readme.txt" />
+      <change type="MOVED" beforePath="D:\franklin\arduino-build-light\java\build-light-feeder\setenv.bat" afterPath="$PROJECT_DIR$/java/build-light-feeder/bin/setenv.bat" />
+      <change type="MOVED" beforePath="D:\franklin\arduino-build-light\java\build-light-feeder\src\com\elevenfolders\arduino\buildlight\CIReader.java" afterPath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/ContinuousIntegrationFeedReader.java" />
     </list>
     <ignored path="arduino-build-light.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,33 +60,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/HudsonReader.java" line="111" class="com.elevenfolders.arduino.buildlight.HudsonReader" package="com.elevenfolders.arduino.buildlight">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/SerialFeeder.java" line="86" class="com.elevenfolders.arduino.buildlight.SerialFeeder" package="com.elevenfolders.arduino.buildlight">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/SerialFeeder.java" line="92" class="com.elevenfolders.arduino.buildlight.SerialFeeder" package="com.elevenfolders.arduino.buildlight">
+      <breakpoint url="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/HudsonReader.java" line="120" class="com.elevenfolders.arduino.buildlight.HudsonReader" package="com.elevenfolders.arduino.buildlight">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -134,19 +131,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="JobsTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/JobsTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="4" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SerialFeeder.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/SerialFeeder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="87" selection-start="4529" selection-end="4529" vertical-scroll-proportion="0.4">
+            <state line="41" column="64" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.4238227">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArduinoSerialListener.pde" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arduino/ArduinoSerialListener/ArduinoSerialListener.pde">
+      <file leaf-file-name="Jobs.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Jobs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="38" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+            <state line="6" column="14" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/build-light-feeder/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="462" selection-end="473" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,24 +183,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/java/build-light-feeder/src/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/compile.sh" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/compile.bat" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/go.bat" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/go.sh" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/jar.bat" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/jar.sh" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Server.java" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/JobsBuilder.java" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Job.java" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/build.gradle" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/HudsonReaderTests.java" />
-        <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Status.java" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/gradle.properties" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/lib/javax.comm.properties" />
+        <option value="$PROJECT_DIR$/arduino/ArduinoSerialListener/ArduinoSerialListener.pde" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/SerialTest.java" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/build.gradle" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/CIReader.java" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/ContinuousIntegrationFeedReader.java" />
         <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/HudsonReader.java" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/HudsonReaderTests.java" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/JobsBuilder.java" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/JobsTests.java" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Job.java" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Status.java" />
+        <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Jobs.java" />
         <option value="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/SerialFeeder.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_INTERNAL" />
@@ -220,21 +240,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino-build-light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build-light-feeder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Favorites" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -364,75 +369,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino-build-light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino-build-light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build-light-feeder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino-build-light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino-build-light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arduino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArduinoSerialListener" />
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arduino-build-light" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-light-feeder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="191" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="200" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="176" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="181" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="196" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="203" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="996" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="998" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="202" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="198" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="183" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="656" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="657" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="183" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="179" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -446,7 +422,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -510,6 +486,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="SerialTest" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.elevenfolders.arduino.buildlight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.elevenfolders.arduino.buildlight.SerialTest" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=lib" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java/build-light-feeder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="build-light-feeder" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1080" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="HudsonReaderTests.testUpdateFromServer" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
@@ -541,6 +545,62 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JobsTests.testgetPrevalentStatusForFailedJob" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.elevenfolders.arduino.buildlight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="build-light-feeder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.elevenfolders.arduino.buildlight" />
+      <option name="MAIN_CLASS_NAME" value="com.elevenfolders.arduino.buildlight.JobsTests" />
+      <option name="METHOD_NAME" value="testgetPrevalentStatusForFailedJob" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JobsTests" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.elevenfolders.arduino.buildlight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="build-light-feeder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.elevenfolders.arduino.buildlight" />
+      <option name="MAIN_CLASS_NAME" value="com.elevenfolders.arduino.buildlight.JobsTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -681,6 +741,19 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
+    <configuration default="false" name="build idea" type="GroovyScriptRunConfiguration" factoryName="Groovy Script">
+      <module name="build-light-feeder" />
+      <setting name="path" value="$PROJECT_DIR$/java/build-light-feeder/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="idea" />
+      <setting name="workDir" value="$PROJECT_DIR$/java/build-light-feeder" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="false" name="HudsonReaderTests" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
@@ -715,13 +788,17 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="6">
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Application.SerialFeeder" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HudsonReaderTests.testUpdateFromServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SerialTest" />
       <item index="2" class="java.lang.String" itemvalue="Groovy Script.build" />
       <item index="3" class="java.lang.String" itemvalue="Groovy Script.build ideaProject" />
       <item index="4" class="java.lang.String" itemvalue="Groovy Script.build ideaModule" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.HudsonReaderTests" />
+      <item index="5" class="java.lang.String" itemvalue="Groovy Script.build idea" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.HudsonReaderTests.testUpdateFromServer" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.HudsonReaderTests" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.JobsTests.testgetPrevalentStatusForFailedJob" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.JobsTests" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -742,7 +819,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
-    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
+    <configuration useDefault="true">C:\Documents and Settings\datteinf5d\Application Data\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -754,30 +831,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="249" y="71" width="1671" height="842" extended-state="0" />
-    <editor active="false" />
+    <frame x="526" y="171" width="976" height="833" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39058173" sideWeight="0.99691737" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35573366" sideWeight="0.6703601" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hudson Information" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38812155" sideWeight="0.9956484" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3066104" sideWeight="0.9991518" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26058632" sideWeight="0.24331927" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.54571027" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hudson Jobs" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26058632" sideWeight="0.54571027" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45428973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -856,106 +933,109 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/META-INF/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="37" selection-start="163" selection-end="163" vertical-scroll-proportion="0.078947365" />
+        <state line="9" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.23684211" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/jar.bat">
+    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="86" selection-end="86" vertical-scroll-proportion="0.078947365" />
+        <state line="4" column="45" selection-start="0" selection-end="223" vertical-scroll-proportion="0.21451104" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/compile.sh">
+    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/lib/javax.comm.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="88" selection-start="88" selection-end="124" vertical-scroll-proportion="0.0" />
+        <state line="18" column="12" selection-start="511" selection-end="511" vertical-scroll-proportion="0.856338" />
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/java/util/List.class">
+    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/bin/go.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="151" selection-end="151" vertical-scroll-proportion="0.1459854" />
+        <state line="2" column="66" selection-start="128" selection-end="151" vertical-scroll-proportion="0.094444446" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/JobsBuilder.java">
+    <entry file="jar://$PROJECT_DIR$/java/build-light-feeder/lib/RXTXcomm.jar!/gnu/io/SerialPort.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="625" selection-end="625" vertical-scroll-proportion="0.45021644">
-          <folding />
-        </state>
+        <state line="5" column="32" selection-start="153" selection-end="163" vertical-scroll-proportion="0.2361111" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arduino/ArduinoSerialListener/ArduinoSerialListener.pde">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="64" selection-start="559" selection-end="559" vertical-scroll-proportion="-1.2961956" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/build-light-feeder/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+        <state line="15" column="13" selection-start="462" selection-end="473" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/CIReader.java">
+    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/ContinuousIntegrationFeedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="109" selection-end="109" vertical-scroll-proportion="0.1459854">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/cache/junit/junit/sources/junit-4.8.2-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/org/w3c/dom/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="122" selection-end="135" vertical-scroll-proportion="0.08759124">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="9" selection-start="347" selection-end="917" vertical-scroll-proportion="0.7214912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/HudsonReaderTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="624" selection-end="624" vertical-scroll-proportion="0.57894737">
+        <state line="5" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.24781342">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/HudsonReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="25" selection-start="2924" selection-end="2924" vertical-scroll-proportion="-0.92105263">
+        <state line="77" column="30" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.47854078">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#appendAPISuffix#0;class#HudsonReader#0" expanded="false" />
+            <element signature="method#getJobsFromUrls#0;class#HudsonReader#0" expanded="false" />
+            <element signature="method#fromColorToStatus#0;class#HudsonReader#0" expanded="false" />
+            <element signature="method#fromXmlToColor#0;class#HudsonReader#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/JobsBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.23684211">
+        <state line="26" column="39" selection-start="561" selection-end="561" vertical-scroll-proportion="0.4892704">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Status.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="15" selection-start="373" selection-end="373" vertical-scroll-proportion="0.5263158">
+        <state line="3" column="20" selection-start="68" selection-end="68" vertical-scroll-proportion="-0.6851312">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="32" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.5761773">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/HudsonReaderTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="401" selection-end="401" vertical-scroll-proportion="0.34195402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Jobs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/build-light-feeder/tests/com/elevenfolders/arduino/buildlight/JobsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="4" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/SerialFeeder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="87" selection-start="4529" selection-end="4529" vertical-scroll-proportion="0.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arduino/ArduinoSerialListener/ArduinoSerialListener.pde">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="38" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+        <state line="41" column="64" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.4238227">
           <folding />
         </state>
       </provider>
@@ -977,7 +1057,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -989,7 +1069,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Unnamed</last-edited>
+          <last-edited>Android 3.0 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
