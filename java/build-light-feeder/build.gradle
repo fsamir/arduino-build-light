@@ -15,3 +15,30 @@ dependencies {
   testCompile group: "junit", name: "junit", version: "4.8.2"
   testCompile group: "org.easymock", name: "easymock", version: "3.0"
 }
+
+sourceCompatibility = 1.5
+version = '1.0'
+jar {
+  manifest {
+    attributes 'Implementation-Title': 'Arduino Build Light',
+               'Implementation-Version': version,
+               'Implementation-Vendor': '11folders.com',
+               'Implementation-URL': 'http://www.elevenfolders.com',
+               'Main-Class': 'com.elevenfolders.arduino.buildlight.SerialFeeder'
+
+  }
+//  archiveName "build-light"
+}
+
+sourceSets {
+  main {
+    java {
+      srcDir 'src'
+    }
+  }
+  test {
+    java {
+      srcDir 'test'
+    }
+  }
+}
