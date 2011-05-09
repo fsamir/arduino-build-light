@@ -27,8 +27,16 @@ jar {
                'Main-Class': 'com.elevenfolders.arduino.buildlight.SerialFeeder'
 
   }
-//  archiveName "build-light"
 }
+
+task(run, dependsOn: 'classes', type: JavaExec) {
+  main = 'com.elevenfolders.arduino.buildlight.SerialFeeder'
+  classpath = sourceSets.main.runtimeClasspath
+//  args '-Djava.library.path=lib'
+//  systemProperty 'simple.message', 'Hello '
+  systemProperty 'java.library.path', 'lib'
+}
+defaultTasks 'run'
 
 sourceSets {
   main {
