@@ -39,7 +39,48 @@ public class SerialFeeder implements SerialPortEventListener {
     //TODO: load this from properties file
 //        String url = "http://localhost:9090/jenkins/job/torpedeiro-unit/";
     String urls[] = new String[]{
-            "http://localhost:9090/jenkins/job/torpedeiro-unit/"
+            //Newsonline
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-cae-base/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-cae-news/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-common/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-config-extensions/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-contentbeans-caefeeder/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-contentmanagementserver-extensions/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-editor-extensions/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-http-cache/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-importer-extensions/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-workflowserver-extensions/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-watchdog-extensions/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-workflowserver-extensions/",
+            "http://10.25.201.42/hudson/view/2%20-%20News%20Online%201.0/job/NEWSONLINE_1.0_TEST_abc-syndication-extensions/",
+
+            //RN Green
+            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0/",
+            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-workflowserver-extensions/",
+            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-watchdog-extensions/",
+            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-javaeditor-extensions/",
+            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-http-cache/",
+            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-editor-extensions/",
+            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-contentmanagementserver-extensions/",
+            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-config-extensions/",
+			"http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-syndication-extensions/",
+            //RN Red
+//            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-syndication-engine-extensions/",
+//            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-importer-extensions/",
+//            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-contentbeans-caefeeder/",
+//            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-common/",
+//            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-cae-news/",
+//            "http://10.25.201.42/hudson/view/1%20-%20Radio%20National%201.0/job/RADIONATIONAL_1.0_TEST_abc-cae-base/",
+            //Unleashed green
+            "http://10.25.201.42/hudson/view/3%20-%20Unleashed%201.0/job/UNLEASHED_1.0_TEST_abc-pbe/",
+            "http://10.25.201.42/hudson/view/3%20-%20Unleashed%201.0/job/UNLEASHED_1.0_TEST_abc-http-cache/",
+            "http://10.25.201.42/hudson/view/3%20-%20Unleashed%201.0/job/UNLEASHED_1.0_TEST_abc-common/",
+            "http://10.25.201.42/hudson/view/3%20-%20Unleashed%201.0/job/UNLEASHED_1.0/"
+
+            //Unleashed red
+//            "http://10.25.201.42/hudson/view/3%20-%20Unleashed%201.0/job/UNLEASHED_1.0_TEST_abc-cae-base/",
+//            "http://10.25.201.42/hudson/view/3%20-%20Unleashed%201.0/job/UNLEASHED_1.0_TEST_abc-cae-unleashed/",
     };
     reader = new HudsonReader(urls);
   }
@@ -94,7 +135,7 @@ public class SerialFeeder implements SerialPortEventListener {
           }
           output.write(newStatus.getCode());
 
-          Thread.sleep(1000 * 3);  //TODO: customize
+          Thread.sleep(1000 * 20);  //TODO: customize
         }
       }
     } catch (Exception e) {

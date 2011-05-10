@@ -14,10 +14,20 @@ public class Jobs extends ArrayList<Job> {
           Status.SUCCESS
   };
 
+  /**
+   * Return the current status of the build server, given the following priority:
+   *
+   * @return the overall current Status of the build server.
+   */
   public Status getPrevalentStatus() {
     for (Status status: priority) {
-      if (this.contains(new Job(status))) {
-        return status;
+      for(Job job:this) {
+        if(job.getStatus().equals(status)){
+          if(status != Status.SUCCESS) {
+            System.out.println("\nFailing job: "+ job.getUrl());
+          }
+          return job.getStatus();
+        }
       }
     }
     return Status.INDEFINITE;

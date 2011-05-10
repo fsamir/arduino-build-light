@@ -77,7 +77,7 @@ void set_all_blue(){
 }
 
 void set_all_green(){
-  set_all(36,25,255);
+  set_all(0,255,0);
 }
 void set_all_red(){
   set_all(255,0,0);
