@@ -14,11 +14,9 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="839a3734-9540-4389-b545-cfd17afa1392" name="Default" comment="- Deleted .bat and .sh files and created a Gradle run task.">
+    <list default="true" id="839a3734-9540-4389-b545-cfd17afa1392" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arduino/ArduinoSerialListener/ArduinoSerialListener.pde" afterPath="$PROJECT_DIR$/arduino/ArduinoSerialListener/ArduinoSerialListener.pde" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Jobs.java" afterPath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/Jobs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/SerialFeeder.java" afterPath="$PROJECT_DIR$/java/build-light-feeder/src/com/elevenfolders/arduino/buildlight/SerialFeeder.java" />
     </list>
     <ignored path="arduino-build-light.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -790,7 +788,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Deleted .bat and .sh files and created a Gradle run task." />
+    <option name="LAST_COMMIT_MESSAGE" value="- adding log with the failing project url." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -808,6 +806,7 @@
     <MESSAGE value="First working version." />
     <MESSAGE value="- Added jarsettings to build.gradle" />
     <MESSAGE value="- Deleted .bat and .sh files and created a Gradle run task." />
+    <MESSAGE value="- adding log with the failing project url." />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />

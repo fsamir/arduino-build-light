@@ -37,7 +37,7 @@ void loop(){
       break;
     case 5:
 //      blinkOrange();
-      setAllOrange();
+      setAllYellow();
       break;
     case 6:
       set_all_red();
@@ -60,14 +60,14 @@ void waitingForCommunicationLight() {
   Colorduino.SetPixel(0, 0, 255,0,0);
   Colorduino.FlipPage(); 
 }
-//RGB samples: http://www.tayloredmktg.com/rgb/
+//RGB samples: http://www.rapidtables.com/web/color/RGB_Color.htm
 void blinkOrange(){
    set_all(0,0,0);//black
    delay(500);   
    set_all(255,165,0);//orange
 }
-void setAllOrange(){   
-   set_all(255,165,0);//orange
+void setAllYellow(){   
+   set_all(255,255,204);
 }
 void set_all_grey(){
     set_all(30,30,30);
