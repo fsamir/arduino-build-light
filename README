@@ -1,16 +1,15 @@
 Arduino Build Light
 
-
 Build light for continuous integration servers, such as Hudson/Jenkins and others to be added soon.
 
 100% open source both hardware and software.
 
-* IMPORTANT: This project is in its early stages and won't run right away. *
+Detailed instructions on how to build and run it:
+http://dattein.com/blog/arduino-build-light/
 
 
 Proudly supported by www.elevenFolders.com
 
 References:
-How to setup Java/RXTX to communicate via SErial Port with Arduino: http://silveiraneto.net/2009/03/01/arduino-and-java/
-
+How to setup Java/RXTX to communicate via Serial Port with Arduino: http://silveiraneto.net/2009/03/01/arduino-and-java/
 The librxtxSerial.jnilib library for Snow Leopard: http://tech.element77.com/2009/06/arduino-problems-with.html
