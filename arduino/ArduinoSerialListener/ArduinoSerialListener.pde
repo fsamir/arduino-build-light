@@ -67,7 +67,7 @@ void blinkOrange(){
    set_all(255,165,0);//orange
 }
 void setAllYellow(){   
-   set_all(255,255,204);
+   set_all(255,255,0);
 }
 void set_all_grey(){
     set_all(30,30,30);
@@ -97,8 +97,9 @@ void set_all(int r, int g, int b) {
 }
 
 void establishContact() {
+  Serial.println("Establishing connection: ");
   while (Serial.available() <= 0) {
-    Serial.print('A', BYTE);   // send a capital A
+    Serial.print('.', BYTE);   // send a capital A
     delay(300);
   }
 }
