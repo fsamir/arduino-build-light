@@ -80,7 +80,7 @@ public class HudsonReader implements ContinuousIntegrationFeedReader {
       return  job;
 
     } catch (Exception ex) {
-      System.err.println(ex);
+      System.err.println("Could not get Url: "+ex);
       return null;
     }
   }
@@ -123,7 +123,7 @@ public class HudsonReader implements ContinuousIntegrationFeedReader {
       }
 
     } catch (Exception e) {
-      System.err.println(e);
+      System.err.println("fromXmlToColor:"+e);
     }
     return result;
   }
