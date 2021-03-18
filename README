@@ -1,11 +1,7 @@
 Arduino Build Light
 
+THIS PROJECT IS DEPRECATED.
 
 Build light for continuous integration servers, such as Hudson/Jenkins and others to be added soon.
 
 100% open source both hardware and software.
-
-Detailed instructions on how to build and run it:
-http://dattein.com/blog/arduino-build-light/
-
-Proudly supported by www.elevenFolders.com
